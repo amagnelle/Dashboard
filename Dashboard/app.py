@@ -40,3 +40,5 @@ if arquivo:
     # Gráfico de linha
     grafico2 = px.line(df_filtrado, x="data", y="valor")
     st.plotly_chart(grafico2, use_container_width=True)
+
+    print("Dashboard atualizado com sucesso!")
